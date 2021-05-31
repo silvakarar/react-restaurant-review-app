@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --grey: #ccc;
+}
+
+.collapsible {
+  float: right;
+  margin: auto 0;
+  padding: 20px 20px;
+  background-color: var(--white); 
+  border: 2px solid var(--white);
+  border-radius: 20px;
+  width: 500px;
+  z-index: 100;
+  position: fixed;
+  top: 7rem;
+  right: 0.2rem;
+ 
+}
+.collapsible:active,
+.collapsible:focus {
+  border: unset;
+  outline: unset;
+}
+
+/* .collapsible  */
+.toggle-button {
+  border: unset;
+  cursor: pointer;
+  background-color: var(--white);
+  border: 1px solid var(--grey);
+  color: var(--black);
+  padding: 1em 2em;
+  font-size: 1em;
+  outline: none;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  transition: all 0.25s;
+}
+.toggle-button:hover {
+border: 1px solid var(--white);
+box-shadow: 0 0.5em 0.5em -0.4em #000;
+transform: translateY(-0.55em);
+
+}
+.collapsible .content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  color: var(--black);
+
+}
+.collapsible .content:active,
+.collapsible .content:focus {
+  border: unset;
+  outline: unset;
+}
+.collapsible .content-parent {
+  position: relative;
+  transition: height ease 0.3s;
+  overflow: auto !important;
+  overflow-y: auto !important;
+  background-color: var(--white);
+  border-radius: 20px;
+}
+.collapsible .content-parent:active,
+.collapsible .content-parent:focus {
+  border: unset;
+  outline: unset;
+}
+
+.collapsible h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--black);
+}
+.collapsible h2 {
+  margin: 0;
+}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.collapsible p {
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.heading-button-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.heading-button-div:focus,
+.heading-button-div:active {
+  border: unset;
+  outline: unset;
+}
+hr {
+  background-color: var(--grey);
+  height: 0.3px;
+  width: 100%;
+  color: var(--grey);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.btn {
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--grey);
+  box-shadow: #ccc;
+  font-size: 12px;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 5px;
+  letter-spacing: 1.5px;
+}
+.btn:focus {
+  outline: none;
+}
+
+.scrollable-x::-webkit-scrollbar-thumb,
+.scrollable-y::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+.content-image {
+  width: 80%;
+  object-fit: contain;
+  margin: 10px;
+}

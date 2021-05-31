@@ -1,0 +1,20 @@
+.restaurant {
+  margin: 3rem;
+}
+
+.restaurant-ratings {
+  margin: 1rem 0;
+}
+
+.ratings-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ratings-icon {
+  font-size: 1.5rem;
+  color: black;
+  /* font-weight: 2rem; */
+  margin-top: 1rem;
+}

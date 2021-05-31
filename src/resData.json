@@ -1,0 +1,56 @@
+
+ [
+    {  "id": "1",
+      "image": "https://images.unsplash.com/photo-1512838243191-e81e8f66f1fd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fHRhY29zfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+       "restaurantName":"True Food Kitchen",
+       "address":"451 Newport Center Dr, Newport Beach, CA 92660",
+       "lat":33.7584369,
+       "long":-118.4143632,
+       "ratings":[
+          {
+             "stars":4,
+             "comment":"We bring our dog to sit in the outdoor patio area and get great service outside."
+          },
+          {
+            "stars":5,
+            "comment":"Amazing restaurant with amazing food👌 Loved the fact that the portion sizes are appropriate and not huge. Left feeling full but not bloated. The Sunrise Bowl is the most fulfilling for vegetarians on the menu in my opinion. (There's a little bit of everything in it!) The deserts are out of this world, especially the chocolate cake."
+         }
+          
+       ]
+    },
+    {  "id": "2",
+       "image": "https://images.unsplash.com/photo-1613232683444-de0a4942e932?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fGphcGFuZXNlJTIwZm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+       ,
+       "restaurantName":"California Shabu Shabu",
+       "address":"801 Baker St A, Costa Mesa, CA 92626",
+       "lat":33.6150498,
+       "long":-117.9431639,
+       "ratings":[
+          {
+             "stars": 3,
+             "comment":"Good quality meats and veggies, nice staff, choice of broth, fair price"
+          },
+          {
+            "stars":5,
+            "comment":"and walked us through all the sauces, and process, and provided recommendations on how to best enjoy our meal. Food was delicious as well. Didn’t expect to walk out of here full, but man I got a major food coma after eating (rice is AYCE btw).Ordering requires each person to order their own meat plate, since everyone gets there own pot and veggies/noodles. We tried both the choice and prime beef; both options were high quality  and well worth it, I’d recommend it!"
+         }
+       ]
+    },
+    {  "id": "3",
+       "image": "https://images.unsplash.com/photo-1529059997568-3d847b1154f0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNhbGFkfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "restaurantName":"Mother's Market & Kitchen",
+      "address":"19770 Beach Blvd, Huntington Beach, CA 92648",
+      "lat":33.6821978,
+      "long":-118.0589561,
+      "ratings":[
+         {
+            "stars":5,
+            "comment":"Chunks of veggie beef, hominy beans and flavorful soup!"
+         },
+         {
+            "stars":5,
+            "comment":"The best of the best beautiful organic produce fresh organic juices. Great grab n go food! And so so much more! Please check it out."
+         }
+      ]
+   }
+ ]
